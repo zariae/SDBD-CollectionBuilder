@@ -1,7 +1,9 @@
 # About This Dataset
 This readme file was created on May 21, 2025 by Zaria El-Fil.
+
 Title: Texas Historical Sites
 Author Zaria El-Fil
+
 Date of Publication: May 21, 2025
 
 # Information About Orginal Dataset
