@@ -1,26 +1,29 @@
 # About This Dataset
+
 This readme file was created on May 21, 2025 by Zaria El-Fil.
 
-Title: Texas Historical Sites
+**Title**: Texas Historical Sites
 
-Author Zaria El-Fil
+**Author**: Zaria El-Fil
 
-Date of Publication: May 21, 2025
+**Date of Publication**: May 21, 2025
 
-# Information About Orginal Dataset
-Title of Original Dataset: IMLS Museum Data Files
+## Information About Orginal Dataset
 
-Maintainer: ICSPR
+**Title of Original Dataset**: IMLS Museum Data Files
 
-Date of Data Collection: US Gov. FY 2013-2019; Saved 2025-02-12
+**Maintainer**: ICSPR
 
-Information about the project: https://doi.org/10.3886/E219155V1
+**Date of Data Collection**: US Gov. FY 2013-2019; Saved 2025-02-12
 
-License: This work is licensed under a Public Domain Mark.
+**Information about the project**: https://doi.org/10.3886/E219155V1
 
-# Information Specific To This Dataset
-Number of columns:
+**License**: This work is licensed under a Public Domain Mark.
 
-Number of rows:
+## Information Specific To This Dataset
 
-Column list: 
+**Number of columns**:
+
+**Number of rows**:
+
+**Column list**: 
