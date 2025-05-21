@@ -20,14 +20,14 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Black Borderland Project 
+title: Texas Historical Sites
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: documenting Black life in the Gulf South 
+tagline: an overview of musuems and libraries in the state
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-GH is a template for creating small digital collection exhibits on GitHub Pages designed for teaching digital library skills"
+description: "Texas Historical Sites is a small digital collection displaying the different museums in libraries in the state of Texas using an IMLS dataset published in 2018."
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: Zaria El-Fil
 
 ##########
 # COLLECTION SETTINGS
