@@ -3,4 +3,4 @@ title: Timeline JIS
 layout: page-full-width
 permalink: /timelinejs.html
 ---
-{% include feature/timelinejs.html %}
+{% includes feature/timelinejs.html %}
