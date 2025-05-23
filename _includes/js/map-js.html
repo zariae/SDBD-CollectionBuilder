@@ -173,13 +173,19 @@
           }
         }
     function objectMarkers(feature,latlng){
-   var marker = new L.CircleMarker(latlng, {
-             radius: 5,
+        {% if site.data.theme.map-cluster == true %}
+            var marker = L.marker(latlng, {alt: feature.properties.title});
+            markers.addLayer(marker);
+        {% endif %}
+        {% if site.data.theme.map-cluster != true %}
+            var marker = new L.CircleMarker(latlng, {
+              radius: 5,
               color: getColor(feature),
-             alt: feature.properties.title,
-        });
-    return marker;
-}
+              alt: feature.properties.title,
+            });
+        {% endif %}
+        return marker;
+    }
 
     /* use geoJson features to add objects to map */
     var mapFeatures = L.geoJson(geodata, {
