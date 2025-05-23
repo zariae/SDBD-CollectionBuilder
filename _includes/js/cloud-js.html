@@ -7,7 +7,7 @@
 {% endif %}
 
 {% comment %} Capture all cloud terms {% endcomment %} 
-{%- assign raw-terms = "" -%}
+{%- assign raw-terms = "preservation society;historical society;national park;genealogical society;hall of fame;culture center;university museum" -%}
 {%- for c in cloud-fields -%}
 {% assign new = items | map: c | compact | join: ";" %}
 {% assign raw-terms = raw-terms | append: ";" | append: new %}
