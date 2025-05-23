@@ -7,11 +7,7 @@
 {% endif %}
 
 {% comment %} Capture all cloud terms {% endcomment %} 
-{%- assign raw-terms = "" -%}
-{%- for c in cloud-fields -%}
-{% assign new = items | map: c | compact | join: ";" %}
-{% assign raw-terms = raw-terms | append: ";" | append: new %}
-{%- endfor -%}
+{%- assign raw-terms = "preservation;frontier;society;museum" -%}
 {%- assign raw-terms = raw-terms | downcase | split: ";" -%}
 
 {% comment %} Clean up raw terms {% endcomment %} 
