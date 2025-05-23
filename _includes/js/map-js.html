@@ -173,11 +173,17 @@
           }
         }
     function objectMarkers(feature,latlng){
+        {% if site.data.theme.map-cluster == true %}
+        var marker = L.marker(latlng, {alt: feature.properties.title});
+        markers.addLayer(marker);
+        {% endif %}
+        {% if site.data.theme.map-cluster != true %}
    var marker = new L.CircleMarker(latlng, {
              radius: 5,
               color: getColor(feature),
              alt: feature.properties.title,
         });
+   {% endif %}
     return marker;
 }
 
